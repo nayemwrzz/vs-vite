@@ -27,4 +27,4 @@ jobs:
 
       - name: Push Docker image to DockerHub
         run: |
-          docker push nayemwrzz/vs-vite:nams
+          docker push nayemwrzz/vs-vite:latest
