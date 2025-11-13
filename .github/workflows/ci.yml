@@ -17,7 +17,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t your-dockerhub-username/vite-frontend:latest .
+          docker build -t nayemwrzz/vs-vite:latest .
 
       - name: Log in to DockerHub
         uses: docker/login-action@v2
@@ -27,4 +27,4 @@ jobs:
 
       - name: Push Docker image to DockerHub
         run: |
-          docker push your-dockerhub-username/vite-frontend:latest
+          docker push nayemwrzz/vs-vite:tagname
